@@ -1,0 +1,46 @@
+.HeaderWrapper {
+    margin: 29px 120px;
+    position: relative;
+}
+.signIn {
+    width: 104px;
+    border-radius: 10px;
+    background-color: #E2B887;
+}
+.Title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    margin-right: 130px;
+    margin-top: 40px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+.LinkWrapper {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0% 27%;
+    color: #FFFFFF;
+}
+a:link {
+    text-decoration: none;
+}
+li {
+    margin-top: 0;
+    margin-right: 30px;
+}
+.IconWrapper {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: auto;
+}
+.img{
+    margin-top: 0px;
+    margin-right: 0px;
+}

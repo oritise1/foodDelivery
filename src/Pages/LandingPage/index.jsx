@@ -1,17 +1,16 @@
-import React from "react";
-import "./index.css";
-import Landing from "../../../components/NavBar";
-import HeadImage from "../../../images/headImage.svg";
-import Google from "../../../images/google.svg";
-import Apple from "../../../images/apple.svg";
-import About from "../../../components/About";
-const Header = () => {
+import React from 'react'
+import './landingpage.css'
+import NavBar from '../../components/NavBar'
+import About from '../../components/About'
+import Apple from '../../images/apple.svg'
+import Google from '../../images/google.svg'
+import HeadImage from '../../images/headImage.svg'
+
+const LandingPage = () => {
   return (
-    <div>
-      <div className="begin">
-        <Landing />
-      </div>
-      <div className="bodyWrapper">
+    <div className='LandingPage'>
+        <NavBar />
+        <div className="bodyWrapper">
         <div className="left">
           <div className="order">
             <h2>
@@ -36,7 +35,7 @@ const Header = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default LandingPage

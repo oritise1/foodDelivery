@@ -1,31 +1,32 @@
-import React from "react";
-import "./index.css";
-import Logo from '../../images/logo.svg'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import { ReactComponent as Logo } from '../../images/logo.svg'
+import './index.css'
 
-const Landing = () => {
-  return (
-    <div>
-      <div className="HeaderWrapper">
-        <div className="LinkWrapper">
-        <img src={Logo} alt="no img" className="img"/>
-          <h2 className="Title">
-            Lilies</h2>
-          <div></div>
-          <div className="IconWrapper">
-            <ul>
-              <li>Home</li>
-              <li>Login</li>
-            </ul>
-              <button className="signIn">
-                <a href="http:/google.com" target={'_blank'} rel="noreferrer">
-                  Sign Up
-                </a>
-              </button>
-          </div>
+const NavBar = () => {
+    const navigate = useNavigate()
+
+    return (
+        <div>
+            <div className="NavbarWrapper">
+                <div className='NavbarContentWrapper'>
+                    <Logo />
+                    <h2 className="Title">
+                        Lilies
+                    </h2>
+                </div>
+                <div className="IconWrapper">
+                    <ul>
+                        <li>Home</li>
+                        <li onClick={() => navigate('/login')}>Login</li>
+                    </ul>
+                    <button className="signIn">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
-};
+    )
+}
 
-export default Landing;
+export default NavBar

@@ -1,15 +1,20 @@
-import './App.css';
-import Pages from './routes';
-// import Header from './Pages/LandingPage/Header';
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import LandingPage from './Pages/LandingPage'
+import Login from './Pages/Login'
+import Dashboard from './Pages/Dashboard'
 
-function App() {
+const App = () => {
+
   return (
-    <>
-      {/* <Header /> */}
-      <Pages />
-    </>
-      
-  )                                                                        
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<LandingPage />} />
+        <Route path='/login' element={<Login />}/>
+        <Route path='/dashboard' element={<Dashboard />}/>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

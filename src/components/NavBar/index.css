@@ -1,19 +1,25 @@
-.HeaderWrapper {
-    margin: 29px 120px;
-    position: relative;
+.NavbarWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.NavbarContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .signIn {
     width: 104px;
     border-radius: 10px;
     background-color: #E2B887;
+    cursor: pointer;
 }
 .Title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    margin-right: 130px;
-    margin-top: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
 }
 ul {
     list-style: none;

@@ -28,3 +28,11 @@
 .SideLinksWrapper {
     margin-top: 50px;
 }
+.sideShow {
+    padding: 100px 26px;
+}
+.sideText {
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+}

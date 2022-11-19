@@ -68,7 +68,10 @@ const Dashboard = () => {
                     ))}
                 </div>
             </div>
-            <div onClick={showDrawer}>
+            <div className='sideShow' onClick={showDrawer}>
+                <h2 className='sideText'>
+                Good morning, Oghenevwede!
+                </h2>
                 <Card />
             </div>
         </div>

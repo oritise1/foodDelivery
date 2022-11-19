@@ -10,8 +10,8 @@ const NavBar = () => {
         <div>
             <div className="NavbarWrapper">
                 <div className='NavbarContentWrapper'>
-                    <Logo />
-                    <h2 className="Title">
+                    <Logo className='img'/>
+                    <h2 className="title">
                         Lilies
                     </h2>
                 </div>
@@ -20,7 +20,7 @@ const NavBar = () => {
                         <li>Home</li>
                         <li onClick={() => navigate('/login')}>Login</li>
                     </ul>
-                    <button className="signIn">
+                    <button onClick={() => navigate("/signup")} className="signIn">
                         Sign Up
                     </button>
                 </div>

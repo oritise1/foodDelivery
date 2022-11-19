@@ -1,5 +1,6 @@
-.subtextWrapper {
+.textWrapper {
+    text-align: center;
     width: 430px;
-    /* margin-right: 40px; */
+    margin-left: 35%;
     text-justify: auto;
 }

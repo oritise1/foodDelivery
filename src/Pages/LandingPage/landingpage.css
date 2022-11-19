@@ -42,3 +42,6 @@
     margin-left: -440px;
     align-items: flex-start;
   }
+  .text {
+    justify-content: center;
+  }

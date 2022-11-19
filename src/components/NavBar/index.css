@@ -1,4 +1,5 @@
 .NavbarWrapper {
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -8,12 +9,13 @@
     align-items: center;
 }
 .signIn {
+    margin-right: 20px;
     width: 104px;
     border-radius: 10px;
     background-color: #E2B887;
     cursor: pointer;
 }
-.Title {
+.title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -48,5 +50,5 @@ li {
 }
 .img{
     margin-top: 0px;
-    margin-right: 0px;
+    margin-left: 105px;
 }

@@ -27,7 +27,7 @@ const LandingPage = () => {
           <img src={HeadImage} alt="no img" className="immg" />
         </div>
       </div>
-      <div>
+      <div className='text'>
         <About 
         center
         text='Special Meals of the day!'
